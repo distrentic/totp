@@ -1,5 +1,7 @@
 # totp
 
+[![npm version](https://badge.fury.io/js/%40distrentic%2Ftotp.svg)](https://badge.fury.io/js/%40distrentic%2Ftotp)
+
 **zero dependency** time-based one-time password provider based on [`rfc6238`](https://tools.ietf.org/html/rfc6238).
 
 ## Installation
