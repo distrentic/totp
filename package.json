@@ -1,0 +1,30 @@
+{
+  "name": "@distrentic/totp",
+  "version": "1.0.0",
+  "description": "zero dependency base32 encoder/decoder based on rfc3548",
+  "main": "dist/index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "build": "tsc --project ."
+  },
+  "keywords": [
+    "totp",
+    "time-based",
+    "one-time",
+    "one-time password",
+    "rfc3548",
+    "zero dependency"
+  ],
+  "author": {
+    "name": "distrentic"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/distrentic/totp.git"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "typescript": "^4.2.4"
+  }
+}

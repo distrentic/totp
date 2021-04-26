@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "UMD",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "strict": true,
+    "rootDir": ".",
+    "outDir": "./dist",
+  }
+}
