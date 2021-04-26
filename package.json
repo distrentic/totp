@@ -1,7 +1,7 @@
 {
   "name": "@distrentic/totp",
   "version": "1.0.0",
-  "description": "zero dependency base32 encoder/decoder based on rfc3548",
+  "description": "zero dependency time-based one-time password provider based on rfc6238",
   "main": "dist/index.js",
   "typings": "index.d.ts",
   "scripts": {
