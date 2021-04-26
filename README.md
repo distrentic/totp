@@ -45,7 +45,7 @@ console.log(isValid);
 
 - **validateCode**(< _number_ > code, < _Buffer_ > token[, < _string_ > modifier]) - (_boolean_) - Validates the time-based one-time password. Allows a variance of no greater than 9 minutes in either direction.
   - **code** - _number_ - code to be validated
-  - **token** - __Buffer__ - token that is used to create one-time password
+  - **token** - _Buffer_ - token that is used to create one-time password
   - **modifier** - _string_ - (optional) reason to create this one-time password
 
 ## License
