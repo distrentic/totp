@@ -62,7 +62,7 @@ const computeOtp = (hashAlg: crypto.Hmac, timeStepNumber: number, modifier?: str
 const generateCode = (token: Buffer, modifier?: string): number => {
   const hashAlg = crypto.createHmac("sha1", token);
 
-  return computeOtp(hashAlg, 3, modifier);
+  return computeOtp(hashAlg, getCurrentTimeStepNumber(3), modifier);
 }
 
 /* Validate the time-based one-time password.
